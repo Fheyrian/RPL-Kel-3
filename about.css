@@ -1,4 +1,55 @@
-.gambar{
-    width: 50%;
-    height: 50%;
+.gambar {
+  width: 50%;
+  height: 50%;
+}
+
+.foto {
+  position: absolute;
+  width: 443px;
+  height: 442px;
+  left: 200px;
+  top: 150px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 115px;
+}
+
+body {
+  position: relative;
+  background: #f6f6f6;
+}
+
+.judul {
+  /* ABOUT US */
+
+  position: absolute;
+  width: 250px;
+  height: 56px;
+  left: 670px;
+  top: 150px;
+
+  font-family: url(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwig8pHJsLTxAhVMSX0KHV4jCqAQoC4oATAnegQIFBAD&url=https%3A%2F%2Fwww.google.com%2Fdesign%2Fspec%2Fresources%2Froboto-noto-fonts.html&usg=AOvVaw3aE4Ex62_GOmiAN-aiALiZ);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.isi {
+  position: absolute;
+  width: 600px;
+  height: 264px;
+  left: 675px;
+  top: 220px;
+  text-align: justify;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #000000;
 }
